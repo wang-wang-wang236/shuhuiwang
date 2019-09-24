@@ -1,0 +1,24 @@
+{
+  "result": true,
+  "shouyetuijian": [{
+    "id": "001",
+    "title": "进击的巨人",
+    "imgURL": "http://localhost:31875/static/img/shouyelunbo/jinjidejuren.jpeg",
+    "destinationUrl": ""
+  },{
+    "id": "002",
+    "title": "海贼王",
+    "imgURL": "http://localhost:31875/static/img/shouyelunbo/onepiece.jpeg",
+    "destinationUrl": ""
+  },{
+    "id": "003",
+    "title": "海贼王852",
+    "imgURL": "http://localhost:31875/static/img/shouyelunbo/onepiece-852.jpeg",
+    "destinationUrl": ""
+  },{
+    "id": "004",
+    "title": "海贼王手办",
+    "imgURL": "http://localhost:31875/static/img/shouyelunbo/onepiece-shouban.jpeg",
+    "destinationUrl": ""
+  }]
+}

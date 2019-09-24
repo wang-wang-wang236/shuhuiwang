@@ -1,0 +1,184 @@
+{
+  "result": true,
+  "comicGuoChanManHuaList": [{
+    "id": "004",
+    "title": "白狼汐",
+    "imgURL": "http://localhost:31875/static/img/zaixianmanhua/bailangxi.jpg",
+    "latestNumber": 79,
+    "latestTitle": "",
+    "itemTitleTo": "/Home",
+    "itemH3ToLatestTitle": "",
+    "itemImgToSpecificComic": "",
+    "destinationUrl": ""
+  },{
+    "id": "005",
+    "title": "镖人",
+    "imgURL": "http://localhost:31875/static/img/zaixianmanhua/biaoren.jpg",
+    "latestNumber": 97,
+    "latestTitle": "裴世菊",
+    "itemTitleTo": "/Home",
+    "itemH3ToLatestTitle": "",
+    "itemImgToSpecificComic": "",
+    "destinationUrl": ""
+  },{
+    "id": "006",
+    "title": "不妻而遇",
+    "imgURL": "http://localhost:31875/static/img/zaixianmanhua/buqieryu.jpg",
+    "latestNumber": 25,
+    "latestTitle": "",
+    "itemTitleTo": "/Home",
+    "itemH3ToLatestTitle": "",
+    "itemImgToSpecificComic": "",
+    "destinationUrl": ""
+  },{
+    "id": "007",
+    "title": "恶灵不退散",
+    "imgURL": "http://localhost:31875/static/img/zaixianmanhua/elingbutuisan.jpg",
+    "latestNumber": 27,
+    "latestTitle": "",
+    "itemTitleTo": "/Home",
+    "itemH3ToLatestTitle": "",
+    "itemImgToSpecificComic": "",
+    "destinationUrl": ""
+  },{
+    "id": "008",
+    "title": "芙蓉坠",
+    "imgURL": "http://localhost:31875/static/img/zaixianmanhua/furongzhui.jpg",
+    "latestNumber": 31,
+    "latestTitle": "",
+    "itemTitleTo": "/Home",
+    "itemH3ToLatestTitle": "",
+    "itemImgToSpecificComic": "",
+    "destinationUrl": ""
+  },{
+    "id": "009",
+    "title": "黄雀传",
+    "imgURL": "http://localhost:31875/static/img/zaixianmanhua/huangquezhuan.jpg",
+    "latestNumber": 38,
+    "latestTitle": "",
+    "itemTitleTo": "/Home",
+    "itemH3ToLatestTitle": "",
+    "itemImgToSpecificComic": "",
+    "destinationUrl": ""
+  },{
+    "id": "010",
+    "title": "火车先生",
+    "imgURL": "http://localhost:31875/static/img/zaixianmanhua/huochexiansheng.jpg",
+    "latestNumber": 18,
+    "latestTitle": "",
+    "itemTitleTo": "/Home",
+    "itemH3ToLatestTitle": "",
+    "itemImgToSpecificComic": "",
+    "destinationUrl": ""
+  },{
+    "id": "011",
+    "title": "火影忍者",
+    "imgURL": "http://localhost:31875/static/img/zaixianmanhua/huoyingrenzhe.jpg",
+    "latestNumber": 695,
+    "latestTitle": "鸣人与佐助",
+    "itemTitleTo": "/Home",
+    "itemH3ToLatestTitle": "",
+    "itemImgToSpecificComic": "",
+    "destinationUrl": ""
+  },{
+    "id": "012",
+    "title": "猎人",
+    "imgURL": "http://localhost:31875/static/img/zaixianmanhua/lieren.jpg",
+    "latestNumber": 390,
+    "latestTitle": "冲突",
+    "itemTitleTo": "/Home",
+    "itemH3ToLatestTitle": "",
+    "itemImgToSpecificComic": "",
+    "destinationUrl": ""
+  },{
+    "id": "013",
+    "title": "名侦探柯南",
+    "imgURL": "http://localhost:31875/static/img/zaixianmanhua/mingzhentankenan.jpg",
+    "latestNumber": 1035,
+    "latestTitle": "工藤新一",
+    "itemTitleTo": "/Home",
+    "itemH3ToLatestTitle": "",
+    "itemImgToSpecificComic": "",
+    "destinationUrl": ""
+  },{
+    "id": "014",
+    "title": "怕丢日记",
+    "imgURL": "http://localhost:31875/static/img/zaixianmanhua/padiuriji.jpg",
+    "latestNumber": 99,
+    "latestTitle": "初雪",
+    "itemTitleTo": "/Home",
+    "itemH3ToLatestTitle": "",
+    "itemImgToSpecificComic": "",
+    "destinationUrl": ""
+  },{
+    "id": "015",
+    "title": "麒麟骨",
+    "imgURL": "http://localhost:31875/static/img/zaixianmanhua/qilingu.jpg",
+    "latestNumber": 25,
+    "latestTitle": "",
+    "itemTitleTo": "/Home",
+    "itemH3ToLatestTitle": "",
+    "itemImgToSpecificComic": "",
+    "destinationUrl": ""
+  },{
+    "id": "016",
+    "title": "无常鬼",
+    "imgURL": "http://localhost:31875/static/img/zaixianmanhua/wuchanggui.jpg",
+    "latestNumber": 26,
+    "latestTitle": "群魔乱舞",
+    "itemTitleTo": "/Home",
+    "itemH3ToLatestTitle": "",
+    "itemImgToSpecificComic": "",
+    "destinationUrl": ""
+  },{
+    "id": "018",
+    "title": "影子猫",
+    "imgURL": "http://localhost:31875/static/img/zaixianmanhua/yingzimao.jpg",
+    "latestNumber": 40,
+    "latestTitle": "留神",
+    "itemTitleTo": "/Home",
+    "itemH3ToLatestTitle": "",
+    "itemImgToSpecificComic": "",
+    "destinationUrl": ""
+  },{
+    "id": "019",
+    "title": "银魂",
+    "imgURL": "http://localhost:31875/static/img/zaixianmanhua/yinhun.jpg",
+    "latestNumber": 701,
+    "latestTitle": "归巢",
+    "itemTitleTo": "/Home",
+    "itemH3ToLatestTitle": "",
+    "itemImgToSpecificComic": "",
+    "destinationUrl": ""
+  },{
+    "id": "020",
+    "title": "一拳超人",
+    "imgURL": "http://localhost:31875/static/img/zaixianmanhua/yiquanchaoren.jpg",
+    "latestNumber": 148,
+    "latestTitle": "力量的冲突",
+    "itemTitleTo": "/Home",
+    "itemH3ToLatestTitle": "",
+    "itemImgToSpecificComic": "",
+    "destinationUrl": ""
+  },{
+    "id": "021",
+    "title": "中华小当家",
+    "imgURL": "http://localhost:31875/static/img/zaixianmanhua/zhonghuaxiaodangjia.jpg",
+    "latestNumber": 33,
+    "latestTitle": "美满的秘诀",
+    "itemTitleTo": "/Home",
+    "itemH3ToLatestTitle": "",
+    "itemImgToSpecificComic": "",
+    "destinationUrl": ""
+  },{
+    "id": "022",
+    "title": "海贼王",
+    "imgURL": "http://localhost:31875/static/img/zaixianmanhua/haizeiwang.jpg",
+    "latestNumber": 952,
+    "latestTitle": "日和与河松",
+    "itemTitleTo": "/Home",
+    "itemH3ToLatestTitle": "",
+    "itemImgToSpecificComic": "",
+    "destinationUrl": ""
+  }]
+}

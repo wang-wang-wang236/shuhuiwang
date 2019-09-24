@@ -1,0 +1,14 @@
+{
+  "result": true,
+  "zaixiannamhualunbo": [{
+    "id": "001",
+    "title": "海贼王相关",
+    "imgURL": "http://localhost:31875/static/img/zaixianmanhua/zaixianmanhua-1.jpeg",
+    "destinationUrl": ""
+  },{
+    "id": "002",
+    "title": "海贼王",
+    "imgURL": "http://localhost:31875/static/img/zaixianmanhua/zaixianmanhua-2.jpeg",
+    "destinationUrl": ""
+  }]
+}
