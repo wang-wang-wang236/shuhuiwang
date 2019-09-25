@@ -9,6 +9,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 const portfinder = require('portfinder')
+const CleanWebpackPlugin = require('clean-webpack-plugin') //后面加的
 
 const HOST = process.env.HOST
 const PORT = process.env.PORT && Number(process.env.PORT)
@@ -66,6 +67,11 @@ const devWebpackConfig = merge(baseWebpackConfig, {
         ignore: ['.*']
       }
     ])
+    // new webpack.optimize.CommonsChunkPlugin({
+    //   name: 'axios',
+    //   filename: axios.js,
+    //   minChunks: 2
+    // })
   ]
 })
 

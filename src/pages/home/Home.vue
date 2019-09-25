@@ -1,9 +1,9 @@
 <template>
     <div class="home">
-        <home-header v-on:log-in='logIn'></home-header>
+        <home-header></home-header>
         <carrousel :swiperList="lunBoList"></carrousel>
         <home-comic-area></home-comic-area>
-
+        <!-- <login v-show="showLogin" v-on:cancel-login='cancelLogin'></login> -->
     </div>
 </template>
 
@@ -12,7 +12,7 @@ import axios from 'axios'
 import HomeHeader from '@/common/HomeHeader'
 import Carrousel from '@/common/Carrousel'
 import HomeComicArea from './components/homeComicArea/HomeComicArea'
-// import Login from '@/pages/login/Login'
+import Login from '@/pages/login/Login'
 export default {
   name: 'Home',
   data () {
@@ -24,8 +24,8 @@ export default {
   components: {
     HomeHeader,
     Carrousel,
-    HomeComicArea
-    // Login
+    HomeComicArea,
+    Login
   },
   methods: {
     getShouYeLunBoList () {
@@ -43,14 +43,20 @@ export default {
         this.lunBoList = data.shouyetuijian
       }
       // console.log(res)
-    },
-    logIn () {
-      // alert('it xiangshang chuandi  login')
-      this.showLogin = true
-    },
-    logInEnter () {
-      alert('hi in ')
     }
+    // logIn (showLoginFromHomeHeader) {
+    //   alert('it xiangshang chuandi  login from showLoginFromHomeHeader')
+    //   alert(showLoginFromHomeHeader)
+    //   this.showLogin = showLoginFromHomeHeader
+    // },
+    // logInEnter () {
+    //   alert('hi in ')
+    // },
+    // cancelLogin (cancelLoginInFromLogin) {
+    //   alert('it xiangshang chuandi  login from cancelLoginInFromLogin')
+    //   alert(cancelLoginInFromLogin)
+    //   this.showLogin = cancelLoginInFromLogin
+    // }
   },
   mounted () {
     console.log('home mouted?')

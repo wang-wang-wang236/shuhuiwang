@@ -28,6 +28,7 @@ export default {
   },
   data () {
     return {
+      showLogin: false,
       TopNavMenu: [{
         id: '001',
         text: '首页',
@@ -62,7 +63,10 @@ export default {
   methods: {
     logIn () {
       alert('12356')
-      this.$emit('log-in')
+      this.showLogin = true
+      alert(this.showLogin)
+      // this.$emit('log-in', this.showLogin)
+      // let ele = document.getElementsByClassName('top-nav')
     }
   }
 }

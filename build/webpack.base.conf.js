@@ -24,6 +24,11 @@ module.exports = {
   entry: {
     app: './src/main.js'
   },
+  // optimation: {
+  //   splitChunks: {
+  //     chunks: 'all'
+  //   }
+  // }, //wo h后面增加的
   output: {
     path: process.env.NODE_ENV === 'production'
       ? config.build.assetsRoot
