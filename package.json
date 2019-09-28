@@ -20,7 +20,8 @@
     "vue-resource": "^1.5.1",
     "vue-router": "^3.0.1",
     "vuejs-paginate": "^2.1.0",
-    "vuetable": "^1.5.12"
+    "vuetable": "^1.5.12",
+    "vuetable-2": "^1.7.5"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

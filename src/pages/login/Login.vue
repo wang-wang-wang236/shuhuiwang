@@ -1,7 +1,7 @@
 <template>
-    <div name="t-login" class="t-log-in">
+    <div name="t-login" class="t-log-in" v-on:click="cancelLogin">
       <div class="login-component" >
-        <form class="whole-form" @click.stop>
+        <form class="whole-form" @click.stop action="https://www.baidu.com" method="post">
           <h2> 登录</h2>
           <div class="user-login-area" >
             <div class="user-login">
@@ -13,7 +13,8 @@
               <input id="password"  type="password" />
             </div>
             <div class="user-login">
-              <input id="submit" class="user-submit" type="submit" value="登录"/>
+              <input id="denglu" class="user-submit" type="submit" value="登录"/>
+              <input id="zhuce" class="user-submit" type="submit" value="注册"/>
             </div>
           </div>
         </form>
@@ -30,10 +31,12 @@ export default {
     }
   },
   methods: {
-    // cancelLogin () {
-    //   alert('cancel login')
-    //   this.$emit('cancel-log', this.showLogin)
-    // }
+    cancelLogin () {
+      // alert('cancel login and showLogin is')
+      this.showLogin = false
+      // alert(this.showLogin)
+      this.$emit('cancel-log', this.showLogin)
+    }
   }
 }
 </script>

@@ -9,7 +9,7 @@
         ></vuetable-pagination>
       </div>
       <vuetable ref="vuetable"
-        api-url="http://localhost:31875/static/static-json/table.json"
+        api-url="https://vuetable.ratiw.net/api/users"
         :fields="fields"
         pagination-path=""
         @vuetable:pagination-data="onPaginationData"
@@ -46,35 +46,44 @@ export default {
     return {
       fields: [
         {
-          name: '__checkbox',
+          name: '__checkbox',   // <----
           titleClass: 'center aligned',
           dataClass: 'center aligned'
         },
         {
-          name: '__sequence',
+          name: '__sequence',   // <----
           title: '#',
           titleClass: 'center aligned',
           dataClass: 'right aligned'
         },
         {
-          name: 'imgURL'
-          // sortField: 'name'
+          name: 'name',
+          sortField: 'name'
         },
         {
-          name: 'title'
-          // sortField: 'email'
+          name: 'email',
+          sortField: 'email'
         },
         {
-          name: 'latestNumber'
-          // sortField: 'age',
-          // dataClass: 'center aligned'
+          name: 'age',
+          sortField: 'age',
+          dataClass: 'center aligned'
         },
         {
-          name: 'latestTitle'
+          name: 'birthdate'
         },
         {
-          name: 'itemTitleTo'
-          // callback: 'allcap'
+          name: 'nickname',
+          callback: 'allcap'
+        },
+        {
+          name: 'gender',
+          titleClass: 'center aligned',
+          dataClass: 'center aligned',
+          callback: 'genderLabel'
+        },
+        {
+          name: 'salary'
         }
       ]
     }

@@ -14,7 +14,7 @@
                 <router-link class="top-nav-user-logoin" to="">登录</router-link>
                 <router-link class="top-nav-user-register" to="">注册</router-link>
             </div>
-            <login v-show="showLogin"></login>
+            <login v-show="showLogin" v-on:cancel-log="cancelLogin"></login>
         </div>
     <!-- </div> -->
 </template>
@@ -62,11 +62,16 @@ export default {
   },
   methods: {
     logIn () {
-      alert('12356')
+      // alert('12356')
       this.showLogin = true
-      alert(this.showLogin)
+      // alert(this.showLogin)
       // this.$emit('log-in', this.showLogin)
       // let ele = document.getElementsByClassName('top-nav')
+    },
+    cancelLogin (cancelShowLogin) {
+      // alert('comein home header cancle login')
+      // alert(cancelShowLogin)
+      this.showLogin = cancelShowLogin
     }
   }
 }
@@ -79,7 +84,7 @@ export default {
     padding 0 12.5rem 0 8.125rem
     width 100%
     height 3.25rem
-    overflow hidden
+    // overflow hidden
     // box-sizing border-box
     border-bottom black solid 0.0625rem
     // .top-nav-pic
