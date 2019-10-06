@@ -62,7 +62,7 @@ export default {
       axios.get('http://localhost:31875/static/static-json/shouye-whole-zaixianmanhua.json').then(this.getComicWholeListSucc)
     },
     getComicWholeListSucc (res) {
-      console.log(res)
+      // console.log(res)
       const data = res.data
       const result = data.result
       if (result) {

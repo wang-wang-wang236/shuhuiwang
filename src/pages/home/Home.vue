@@ -3,6 +3,8 @@
         <home-header></home-header>
         <carrousel :swiperList="lunBoList"></carrousel>
         <home-comic-area></home-comic-area>
+        <!-- <h4>****************</h4> -->
+        <!-- <comic-area-table :comicAllList="this.comicList"></comic-area-table> -->
         <!-- <login v-show="showLogin" v-on:cancel-login='cancelLogin'></login> -->
     </div>
 </template>
@@ -13,19 +15,22 @@ import HomeHeader from '@/common/HomeHeader'
 import Carrousel from '@/common/Carrousel'
 import HomeComicArea from './components/homeComicArea/HomeComicArea'
 import Login from '@/pages/login/Login'
+import ComicAreaTable from '@/pages/comicOnline/components/comicOnlineComicArea/ComicAreaTable'
 export default {
   name: 'Home',
   data () {
     return {
       lunBoList: [],
-      showLogin: false
+      showLogin: false,
+      comicList: []
     }
   },
   components: {
     HomeHeader,
     Carrousel,
     HomeComicArea,
-    Login
+    Login,
+    ComicAreaTable
   },
   methods: {
     getShouYeLunBoList () {
@@ -42,6 +47,22 @@ export default {
       if (result) {
         this.lunBoList = data.shouyetuijian
       }
+      // console.log(res)
+    },
+    getComicList () {
+      // console.log('in get list?')
+      axios.get('http://localhost:31875/static/static-json/comicAll.json').then(this.getComicListSucc)
+    },
+    getComicListSucc (res) {
+      // console.log('comic all list data?', res)
+      const data = res.data
+      // const flag = data.result
+      // if (flag) {
+      //   console.log('get flag?')
+      // }
+      const comicAllList = data.comicAllList
+      // console.log('comic list 666', data)
+      this.comicList = comicAllList
       // console.log(res)
     }
     // logIn (showLoginFromHomeHeader) {
@@ -61,6 +82,7 @@ export default {
   mounted () {
     console.log('home mouted?')
     this.getShouYeLunBoList()
+    this.getComicList()
   }
 }
 </script>

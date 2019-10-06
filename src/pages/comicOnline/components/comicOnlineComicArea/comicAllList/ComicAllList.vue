@@ -10,13 +10,15 @@
       </ul>
     </div> -->
     <comic-list-category></comic-list-category>
-    <comic-common-list :swiperList="this.allList"></comic-common-list>
+    <!-- <comic-common-list :swiperList="this.allList"></comic-common-list> -->
+    <comic-area-table :comicAllList="this.allList">"></comic-area-table>
   </div>
 </template>
 
 <script>
 import ComicCommonList from '../comicList/ComicCommonList'
 import ComicListCategory from '../comicList/ComicListCategory'
+import ComicAreaTable from '@/pages/comicOnline/components/comicOnlineComicArea/ComicAreaTable'
 import axios from 'axios'
 export default {
   name: 'ComicAllList',
@@ -27,7 +29,8 @@ export default {
   },
   components: {
     ComicCommonList,
-    ComicListCategory
+    ComicListCategory,
+    ComicAreaTable
   },
   methods: {
     getAllList () {

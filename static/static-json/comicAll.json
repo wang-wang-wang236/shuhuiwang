@@ -1,13 +1,6 @@
 {
-  "total":200,
-  "per_page":15,
-  "current_page":1,
-  "last_page":14,
-  "next_page_url":"https:\/\/vuetable.ratiw.net\/api\/users?page=2",
-  "prev_page_url":null,
-  "from":1,
-  "to":15,
-  "data": [{
+  "result": true,
+  "comicAllList": [{
     "id": "001",
     "title": "排球",
     "imgURL": "http://localhost:31875/static/img/zaixianmanhua/paiqiu.jpg",

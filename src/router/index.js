@@ -9,6 +9,7 @@ import ComicReXueManHua from '@/pages/comicOnline/components/comicOnlineComicAre
 import ComicShuHuiHanHua from '@/pages/comicOnline/components/comicOnlineComicArea/comicAllList/ComicShuHuiHanHua'
 import ComicGuoChanManHua from '@/pages/comicOnline/components/comicOnlineComicArea/comicAllList/ComicGuoChanManHua'
 import ComicAreaTable from '@/pages/comicOnline/components/comicOnlineComicArea/ComicAreaTable'
+import ComicAreaTable1 from '@/pages/comicOnline/components/comicOnlineComicArea/ComicAreaTable1'
 
 Vue.use(Router)
 
@@ -50,6 +51,10 @@ export default new Router({
         path: 'ComicAreaTable',
         name: 'ComicAreaTable',
         component: ComicAreaTable
+      }, {
+        path: 'ComicAreaTable1',
+        name: 'ComicAreaTable1',
+        component: ComicAreaTable1
       }]
     }
   ]
